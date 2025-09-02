@@ -24,10 +24,9 @@
 
 ## Integrantes do Grupo
 
-- Nome 1 — RA:  
-- Nome 2 — RA:  
-- Nome 3 — RA:  
-- Nome 4 — RA:  
+- Nome 1 — Valéria Oliveira RA:  10420562
+- Nome 2 — Eduarda Dantas   RA:  10419951 
+
 
 ---
 
