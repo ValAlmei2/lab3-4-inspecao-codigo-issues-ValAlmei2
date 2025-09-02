@@ -24,6 +24,8 @@ public class TicketMachine {
         for (int i = 0; i < papelMoeda.length && !achou; i++) {
             if (papelMoeda[1] == quantia) {
                 achou = true;
+//loop for incorreto. O if está acessando a posição 1 do array papelMoeda em todas iterações, mas deveria acessar todas as posições, 
+// ou seja, tinha que usar a variável i do loop para isso acontecer.
             }
         }
         if (!achou) {
@@ -39,6 +41,7 @@ public class TicketMachine {
     public Iterator<Integer> getTroco() {
         return null;
     }
+// o método getTroco não deveria retornar null, tinha que calcular o troco e devolver um objeto iterator.
 
     public String imprimir() throws SaldoInsuficienteException {
         if (saldo < valor) {
