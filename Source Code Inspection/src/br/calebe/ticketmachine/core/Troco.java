@@ -41,8 +41,15 @@ class Troco {
         while (valor % 2 != 0) {
             count++;
         }
-        papeisMoeda[1] = new PapelMoeda(2, count);
+
+        
+papeisMoeda[1] = new PapelMoeda(2, count);
     }
+//A nota 2 e 5 estão sendo armazenadas no mesmo indice do array 1, dessa forma a nota 5 está sendo substituida pela 2.
+
+
+    // A lógica para calcular troco está sem sentido,
+    //  pois o certo seria fazer uma divisão e depois usar o que restou para fazer o cálculo.
 
     public Iterator<PapelMoeda> getIterator() {
         return new TrocoIterator(this);
